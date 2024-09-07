@@ -74,3 +74,6 @@ Overall, `Logistic Regression` scores were better than `SVM` on most of the feat
 By conducting the training process on the ***Titles***, the overall accuracy decreased significantly. Meanwhile, with the addition of ***Titles*** features, the results were slightly better. For `Logistic Regression` models the accuracy increased from 0.871 to 0.881 regarding count_features and from 0.885 to 0.893 regarding tfidf_features. Same with `SVM`, the score on count_features went up to 0.871 (by 0.02) but slightly decrease on tfidf_features. It can be concluded that with more data and information, we can considerably train more accurate models.
 
 The best models is **Logistic Regression with tf-idf of Titles and Descriptions**
+
+*Assignment 3 of COSC3015-Advanced Programming for Data Science RMIT 2024 (Group works with Nguyen Nguyen and Lisa Mari Huynh)*
+
