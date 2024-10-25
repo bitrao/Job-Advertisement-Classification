@@ -8,7 +8,7 @@ The [data](../main/data) folder consists of four subfolders, *Accounting_Finance
 A job advertisement has three parts: `Title`, `WebIndex` and `Description`. In some job advertisements, `Company` is also included. 
 The `Title` is the title of the job, `WebIndex` is the unique digit identifier of the job advertisement, `Company`is the name of the company that looks for employees, and `Description` is the job description.
 
-### Appoach
+### Approach
 The jobs information are preprocessed and represented in 4 differents features sets using `Bag of Words` model and also `words-embedding`. 
 The bag-of-words model will generate a Count vector representation and TFIDF vector representation from the generated vocabulary, 
 and for the word embedding model, we have chosen the Word2Vec pretrained model from Google News 300 to build a weighted and unweighted vector representation for the job descriptions. 
@@ -75,5 +75,5 @@ By conducting the training process on the ***Titles***, the overall accuracy dec
 
 The best models is **Logistic Regression with tf-idf of Titles and Descriptions**
 
-*Assignment 3 of COSC3015-Advanced Programming for Data Science RMIT 2024 (Group works with Nguyen Nguyen and Lisa Mari Huynh)*
+*Assignment 3 of COSC3015-Advanced Programming for Data Science RMIT 2024 (Group works with Nguyen Nguyen and Lisa Maria Huynh)*
 
